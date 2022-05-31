@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "DS GITI";
+    src: url("./fonts/DS-DIGIB.TTF") format("woff");
+}
+body {
+    height: 88vh;
+    background: radial-gradient(#494eff, black)
+}
+
+.timer {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content {
+    width: 400px;
+    margin: auto;
+}
+
+.casiostyle {
+    position: relative;
+}
+
+.time {
+    line-height: 85px;
+    height: 85px;
+    width: 210px;
+    position: absolute;
+    top: 298px;
+    margin-left: 85px;
+    color: black;
+    font-size: 45px;
+    font-family: "DS GITI" , serif;
+    background-color: rgb(64,145,48);
+    vertical-align: middle;
+}
+
+
+.btn button {
+    background-color: rgba(28, 28, 28, 0);
+    border-radius: 40px;
+    height: 14px;
+    width: 31px;
+    border: none;
+}
+
+.start {
+    position: absolute;
+    top: 568px;
+    margin-left: -115px;
+    border-radius: 40px;
+}
+
+.stop {
+    position: absolute;
+    top: 568px;
+    margin-left: -57px;
+}
+
+.reset {
+    position: absolute;
+    top: 568px;
+    margin-left: 4px;
+}
+
+.wait {
+    position: absolute;
+    top: 568px;
+    margin-left: 64px;
+}
+
