@@ -9,7 +9,6 @@ const Timer = () => {
     const [status, setStatus] = useState('stop')
     let sec;
     useEffect(() => {
-        console.log(status)
         if (status === 'start') {
             sec = setInterval(() => {
                 setTime((s) => s + 1);
